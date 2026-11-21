@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Arduino / ESP32 intermediate build artifacts (keep .bin for flashing)
+*.map
+*.elf
+esp32_firmware/build/core/
+esp32_firmware/build/libraries/
+esp32_firmware/build/sketch/
+esp32_firmware/build/*.json
+esp32_firmware/build/*.cache
+
+# Temporary logs
+data/logs/*.csv
+data/logs/*.log
+!data/logs/.gitkeep
